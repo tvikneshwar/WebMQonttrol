@@ -11,7 +11,7 @@
  */
 var mqtt = require('mqtt');
 //var mqttbroker = 'localhost:1883';
-var mqttbroker = 'broker.hivemq.com:8000';
+var mqttbroker = 'broker.hivemq.com:1883';
 var mqttclient = mqtt.connect('mqtt://' + mqttbroker);
 
 var socket = require('socket.io');
